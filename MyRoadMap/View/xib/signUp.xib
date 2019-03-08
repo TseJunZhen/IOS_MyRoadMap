@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="MyRoadMap" customModuleProvider="target">
+            <connections>
+                <outlet property="doneBtn" destination="glw-KZ-M4m" id="Yqa-xK-cbe"/>
+                <outlet property="signUpView" destination="iN0-l3-epB" id="ye4-R1-D5Z"/>
+                <outlet property="userMailTxt" destination="UWu-Jg-err" id="juV-FH-Uhh"/>
+                <outlet property="userNameTxt" destination="5Tg-It-xbg" id="7DG-HY-Cfz"/>
+                <outlet property="userPasswordTxt" destination="t3R-Jo-YaA" id="3wh-MO-uQR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="signUp" customModule="MyRoadMap" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="889" height="675"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="69" translatesAutoresizingMaskIntoConstraints="NO" id="YMZ-6m-shc">
+                    <rect key="frame" x="133.5" y="169" width="622" height="337.5"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="U s e r N a m e" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Tg-It-xbg" customClass="HoshiTextField" customModule="TextFieldEffects">
+                            <rect key="frame" x="0.0" y="0.0" width="622" height="66.5"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="U s e r - m a i l" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UWu-Jg-err" customClass="HoshiTextField" customModule="TextFieldEffects">
+                            <rect key="frame" x="0.0" y="135.5" width="622" height="66.5"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="p a s s w o r d" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t3R-Jo-YaA" customClass="HoshiTextField" customModule="TextFieldEffects">
+                            <rect key="frame" x="0.0" y="271" width="622" height="66.5"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                        </textField>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SIGN UP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bez-gu-pc8">
+                    <rect key="frame" x="311" y="50.5" width="267" height="101.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glw-KZ-M4m">
+                    <rect key="frame" x="311" y="523" width="267" height="101.5"/>
+                    <state key="normal" title="Done"/>
+                    <connections>
+                        <action selector="doneAtn:" destination="-1" eventType="touchUpInside" id="4vo-8v-ab2"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="glw-KZ-M4m" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="2YJ-me-OmU"/>
+                <constraint firstItem="glw-KZ-M4m" firstAttribute="height" secondItem="bez-gu-pc8" secondAttribute="height" id="ExY-eB-xAC"/>
+                <constraint firstItem="bez-gu-pc8" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.3" id="GaV-fc-8Wh"/>
+                <constraint firstItem="YMZ-6m-shc" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.5" id="Im6-6n-OwE"/>
+                <constraint firstItem="bez-gu-pc8" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.3" id="V9g-AF-CIg"/>
+                <constraint firstItem="glw-KZ-M4m" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="1.7" id="VQ6-Fj-r0O"/>
+                <constraint firstItem="YMZ-6m-shc" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="W56-MT-Hrc"/>
+                <constraint firstItem="glw-KZ-M4m" firstAttribute="width" secondItem="bez-gu-pc8" secondAttribute="width" id="blR-Av-FMk"/>
+                <constraint firstItem="YMZ-6m-shc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fhF-I7-diL"/>
+                <constraint firstItem="bez-gu-pc8" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="h0B-MJ-Z3Q"/>
+                <constraint firstItem="YMZ-6m-shc" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.7" id="r9I-rr-xdM"/>
+                <constraint firstItem="bez-gu-pc8" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.15" id="vem-Ej-yuJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="usePasswordText" destination="t3R-Jo-YaA" id="ITG-qP-a8D"/>
+                <outlet property="userMailText" destination="UWu-Jg-err" id="UOX-YP-o0p"/>
+                <outlet property="userNameText" destination="5Tg-It-xbg" id="gNR-c4-SEh"/>
+            </connections>
+            <point key="canvasLocation" x="701.60000000000002" y="244.22788605697153"/>
+        </view>
+    </objects>
+</document>

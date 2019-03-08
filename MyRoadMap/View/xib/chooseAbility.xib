@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimeDetailViewController" customModule="MyRoadMap" customModuleProvider="target">
+            <connections>
+                <outlet property="chooseAbilityView" destination="iN0-l3-epB" id="i8I-ew-W8R"/>
+                <outletCollection property="languageAllBtn" destination="rpy-lP-vzc" collectionClass="NSMutableArray" id="Fcf-bo-Q62"/>
+                <outletCollection property="languageAllBtn" destination="wt5-HS-Z7D" collectionClass="NSMutableArray" id="9sU-wd-CWG"/>
+                <outletCollection property="languageAllBtn" destination="wO0-nA-L9A" collectionClass="NSMutableArray" id="MuJ-pQ-dET"/>
+                <outletCollection property="languageAllBtn" destination="dHJ-P8-96C" collectionClass="NSMutableArray" id="y59-yA-0M6"/>
+                <outletCollection property="languageAllBtn" destination="kor-Hk-obW" collectionClass="NSMutableArray" id="yss-aw-VuX"/>
+                <outletCollection property="languageAllBtn" destination="C1o-oN-Djw" collectionClass="NSMutableArray" id="6sO-qQ-2eu"/>
+                <outletCollection property="languageAllBtn" destination="4WK-Cm-L0Z" collectionClass="NSMutableArray" id="AXj-1j-lYy"/>
+                <outletCollection property="languageAllBtn" destination="1ng-Gl-wbz" collectionClass="NSMutableArray" id="JS5-MP-Clt"/>
+                <outletCollection property="languageAllBtn" destination="E1D-ca-EaO" collectionClass="NSMutableArray" id="EqC-8W-Lus"/>
+                <outletCollection property="languageAllBtn" destination="19C-AV-eZL" collectionClass="NSMutableArray" id="wNF-nO-kEq"/>
+                <outletCollection property="languageAllBtn" destination="WlF-ZG-hpW" collectionClass="NSMutableArray" id="DCb-uK-Rys"/>
+                <outletCollection property="languageAllBtn" destination="7cD-i9-EwJ" collectionClass="NSMutableArray" id="BmV-QY-GCh"/>
+                <outletCollection property="languageAllBtn" destination="Qyc-FU-MWg" collectionClass="NSMutableArray" id="dOA-6B-fwm"/>
+                <outletCollection property="languageAllBtn" destination="Zx5-ZN-xd7" collectionClass="NSMutableArray" id="DGq-M6-WF0"/>
+                <outletCollection property="languageAllBtn" destination="OqX-If-kOW" collectionClass="NSMutableArray" id="8OS-e5-Sgk"/>
+                <outletCollection property="languageAllBtn" destination="9py-3o-HZ3" collectionClass="NSMutableArray" id="uNp-rc-xoM"/>
+                <outletCollection property="languageAllBtn" destination="Vn1-Ut-F0Q" collectionClass="NSMutableArray" id="wrN-1c-Ek6"/>
+                <outletCollection property="languageAllBtn" destination="Ze5-z0-2Pb" collectionClass="NSMutableArray" id="Ifr-0X-Q2y"/>
+                <outletCollection property="languageAllBtn" destination="JrB-vl-Sz7" collectionClass="NSMutableArray" id="aa3-y9-CLu"/>
+                <outletCollection property="languageAllBtn" destination="bq2-wl-MB0" collectionClass="NSMutableArray" id="nDX-Zu-cNy"/>
+                <outletCollection property="languageAllBtn" destination="2c3-sE-QIQ" collectionClass="NSMutableArray" id="IwS-RV-g4G"/>
+                <outletCollection property="languageAllBtn" destination="JZV-x4-K2p" collectionClass="NSMutableArray" id="kF0-iL-dFv"/>
+                <outletCollection property="languageAllBtn" destination="4dv-9G-eaW" collectionClass="NSMutableArray" id="XBs-wW-Rq1"/>
+                <outletCollection property="languageAllBtn" destination="drD-TW-SMC" collectionClass="NSMutableArray" id="I6z-fK-q3A"/>
+                <outletCollection property="languageAllBtn" destination="mCs-jZ-nwc" collectionClass="NSMutableArray" id="UMG-qp-7aR"/>
+                <outletCollection property="languageAllBtn" destination="X1X-2C-bxv" collectionClass="NSMutableArray" id="7WR-Zf-T9y"/>
+                <outletCollection property="languageAllBtn" destination="6AR-IB-p1f" collectionClass="NSMutableArray" id="kLG-jj-IES"/>
+                <outletCollection property="languageAllBtn" destination="huh-kq-QVo" collectionClass="NSMutableArray" id="EUx-Ui-jSs"/>
+                <outletCollection property="languageAllBtn" destination="WXJ-p5-dUy" collectionClass="NSMutableArray" id="fZd-Ip-o70"/>
+                <outletCollection property="languageAllBtn" destination="lKE-6P-965" collectionClass="NSMutableArray" id="eVc-a6-Wj1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="chooseAbility" customModule="MyRoadMap" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="794" height="775"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="u8e-fR-Spb">
+                    <rect key="frame" x="39.5" y="77.5" width="715" height="620"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="f3W-uz-jIP">
+                            <rect key="frame" x="0.0" y="0.0" width="225" height="620"/>
+                            <subviews>
+                                <button opaque="NO" alpha="0.5" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpy-lP-vzc">
+                                    <rect key="frame" x="0.0" y="0.0" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="C">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="Rkk-0h-tek"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wt5-HS-Z7D">
+                                    <rect key="frame" x="0.0" y="64.5" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="css">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="ZTC-Gf-oHt"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wO0-nA-L9A">
+                                    <rect key="frame" x="0.0" y="129" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="html">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="80G-Y0-xOb"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHJ-P8-96C">
+                                    <rect key="frame" x="0.0" y="193.5" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="swift">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="7mR-wt-o3T"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kor-Hk-obW">
+                                    <rect key="frame" x="0.0" y="258" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="python">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="qho-3c-eGI"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1o-oN-Djw">
+                                    <rect key="frame" x="0.0" y="322.5" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="vue">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="0Oj-gT-Waz"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4WK-Cm-L0Z">
+                                    <rect key="frame" x="0.0" y="387" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="kotlin">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="cVL-IC-jXN"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ng-Gl-wbz">
+                                    <rect key="frame" x="0.0" y="451.5" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="fmdb">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="nWW-1t-6nG"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1D-ca-EaO">
+                                    <rect key="frame" x="0.0" y="516" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="mysql">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="vIi-g3-tII"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="28" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19C-AV-eZL">
+                                    <rect key="frame" x="0.0" y="580.5" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="graphQL">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="pxU-2b-YsF"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="1r3-IJ-qCE">
+                            <rect key="frame" x="245" y="0.0" width="225" height="620"/>
+                            <subviews>
+                                <button opaque="NO" alpha="0.5" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WlF-ZG-hpW">
+                                    <rect key="frame" x="0.0" y="0.0" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="C#">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="USI-u3-7CR"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cD-i9-EwJ">
+                                    <rect key="frame" x="0.0" y="64.5" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="docNet">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="Rx1-BB-tbB"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qyc-FU-MWg">
+                                    <rect key="frame" x="0.0" y="129" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="ios">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="vSy-vf-Ymb"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zx5-ZN-xd7">
+                                    <rect key="frame" x="0.0" y="193.5" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="Javascript">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="S2v-FM-g0I"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OqX-If-kOW">
+                                    <rect key="frame" x="0.0" y="258" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="Ruby">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="wQq-6Z-hpB"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9py-3o-HZ3">
+                                    <rect key="frame" x="0.0" y="322.5" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="yml">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="zA2-VM-LpY"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vn1-Ut-F0Q">
+                                    <rect key="frame" x="0.0" y="387" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="xamarin">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="R62-oh-QT9"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ze5-z0-2Pb">
+                                    <rect key="frame" x="0.0" y="451.5" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="oracle">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="ZNF-XG-I8l"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="26" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JrB-vl-Sz7">
+                                    <rect key="frame" x="0.0" y="516" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="coredata">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="Yxc-OU-hww"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="29" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bq2-wl-MB0">
+                                    <rect key="frame" x="0.0" y="580.5" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="extremedb">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="YHS-PB-bJ8"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="8qx-v7-0ZQ">
+                            <rect key="frame" x="490" y="0.0" width="225" height="620"/>
+                            <subviews>
+                                <button opaque="NO" alpha="0.5" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2c3-sE-QIQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="C++">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="n0l-wl-e2p"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZV-x4-K2p">
+                                    <rect key="frame" x="0.0" y="64.5" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="docker">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="Dtw-Cx-rKA"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dv-9G-eaW">
+                                    <rect key="frame" x="0.0" y="129" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="ObjectiveC">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="HRB-8k-yim"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drD-TW-SMC">
+                                    <rect key="frame" x="0.0" y="193.5" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="php">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="r65-Bs-aJI"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCs-jZ-nwc">
+                                    <rect key="frame" x="0.0" y="258" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="nodejs">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="rxM-KP-3LT"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1X-2C-bxv">
+                                    <rect key="frame" x="0.0" y="322.5" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="go">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="6lm-Mc-1sz"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6AR-IB-p1f">
+                                    <rect key="frame" x="0.0" y="387" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="sqlite">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="RVj-pF-lmI"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huh-kq-QVo">
+                                    <rect key="frame" x="0.0" y="451.5" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="mongoDB">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="u9n-X2-pMW"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="27" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXJ-p5-dUy">
+                                    <rect key="frame" x="0.0" y="516" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="realm">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="WNu-ny-gBK"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKE-6P-965">
+                                    <rect key="frame" x="0.0" y="580.5" width="225" height="39.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    <state key="normal" title="postgreSQL">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="chooseLanguage:" destination="-1" eventType="touchUpInside" id="YKY-3c-oik"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VyN-4O-H0T">
+                    <rect key="frame" x="317.5" y="697.5" width="159" height="77.5"/>
+                    <state key="normal" title="OKAY"/>
+                    <connections>
+                        <action selector="chooseOkayAtn:" destination="-1" eventType="touchUpInside" id="R7d-e1-fsP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="VyN-4O-H0T" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="FKp-DH-DEe"/>
+                <constraint firstItem="VyN-4O-H0T" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.2" id="V8c-bX-fij"/>
+                <constraint firstItem="VyN-4O-H0T" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="1.9" id="g6o-kk-j4t"/>
+                <constraint firstItem="VyN-4O-H0T" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.1" id="imE-ig-WvO"/>
+                <constraint firstItem="u8e-fR-Spb" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="p0S-fd-wDF"/>
+                <constraint firstItem="u8e-fR-Spb" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.9" id="p53-hR-pzN"/>
+                <constraint firstItem="u8e-fR-Spb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qd7-Q9-jnO"/>
+                <constraint firstItem="u8e-fR-Spb" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.8" id="waW-kH-Pg7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-22.399999999999999" y="-117.39130434782609"/>
+        </view>
+    </objects>
+</document>

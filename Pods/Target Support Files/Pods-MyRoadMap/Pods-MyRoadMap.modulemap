@@ -1,0 +1,6 @@
+framework module Pods_MyRoadMap {
+  umbrella header "Pods-MyRoadMap-umbrella.h"
+
+  export *
+  module * { export * }
+}
